@@ -1,0 +1,279 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-container{
+    float: left;
+}
+
+.logo-container::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0;
+    clear: both;
+}
+
+.logo__img{
+    float: left;
+    margin-right: 8px;
+    width: 55px;
+    height: 55px;
+}
+
+.logo__text-container{
+    float: left;
+}
+
+.logo__heading{
+    font-family: 'Lobster', cursive;
+    font-style: italic;
+    color: #0c0c0c;
+}
+
+.logo__text{
+    color: #4e4e4e;
+    text-transform: uppercase;
+}
+
+.social-icones-container{
+    float: right;
+}
+
+.social-icones-container::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0;
+    clear: both;
+}
+
+.social-icones__icone--space{
+    margin-right: 10px;
+}
+
+header{
+    position: relative;
+    overflow: auto;
+    width: 100%;
+}
+
+/* header::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 25px;
+    position: absolute;
+    left: 0;
+    bottom: -25px;
+    background-image: url('img/hr-img.png');
+    background-repeat: repeat;
+} */
+
+.hr{
+    background-image: url('img/hr-img.png');
+    background-repeat: repeat;
+    width: 100%;
+    height: 15px;
+    margin-top: 30px;
+}
+
+/* main */
+
+main{
+    width: 100%;
+}
+
+.container{
+    margin-top: 60px;
+    overflow: auto;
+    width: 100%;
+}
+
+/* .container::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0;
+    clear: both;
+} */
+
+.text-container{
+    float: left;
+}
+
+.main-heading{
+    font-family: 'Odibee Sans', cursive;
+    font-size: 300%;
+    color: #0c0c0c;
+}
+
+.post{
+    text-transform: uppercase;
+    color: #979797;
+}
+
+.print-img-container{
+    float: right;
+    margin-top: 50px;
+}
+.print-img-container p {
+    float: right;
+    text-transform: uppercase;
+    color: #979797;
+}
+
+.print-img{
+    width: 15px;
+    height: 15px;
+    margin-right: 3px;
+}
+
+
+.choco-pizza-img{
+    margin: 50px 0;
+    display: block;
+    width: 100%;
+}
+
+.article__text{
+    margin-bottom: 30px;
+    line-height: 1.4;
+    color: #3b3b3b;
+    text-indent: 20px;
+}
+
+.list{
+    position: relative;
+}
+
+.list__img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.list__checkbox-1{
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    z-index: 100;
+    width: 40%;
+}
+
+.list__checkbox-2{
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    z-index: 100;
+    width: 30%;
+}
+
+.input-group{
+    overflow: auto;
+    width: 100%;
+    margin-bottom: 17px;
+    position: relative;
+}
+
+.input-group input{
+    float: left;
+    position: absolute;
+    left: 0;
+    bottom: 6px;
+}
+
+.list__checkbox-2 .input-group:last-child input{
+    float: left;
+    position: absolute;
+    left: 0;
+    bottom: 35px;
+}
+
+.checkbox-text{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 150%;
+    color: #4e4e4e;
+    margin-left: 20px;
+}
+
+.checkbox-text--crossed{
+    text-decoration: line-through;
+}
+
+.testimonial{
+    margin-top: 35px;
+    overflow: auto;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.testimonial-img-container{
+    float: left;
+    width: 10%;
+    margin-right: 2%;
+}
+
+.testimonial img{
+    width: 90%;
+}
+
+.testimonial-text-container{
+    float: left;
+    width: 70%;
+}
+
+.testimonial__heading{
+    color: #3b3b3b;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.testimonial-text{
+    color: #4e4e4e;
+}
+
+.btn-container{
+    float: right;
+    width: 10%;
+    margin-left: 5%;
+}
+
+.btn:link,
+.btn:visited{
+    margin-left: auto;
+    float: right;
+    color: #d8d8d8;
+    width: 200px;
+    height: auto;
+    padding: 15px 25px;
+    background-color: #945335;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: text-top;
+}
+
+
+footer{
+    border-top: 1px solid #d8d8d8;
+    padding: 20px 0;
+    position: relative;
+    text-align: center;
+}
+
+footer img{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.copy-right{
+    margin-top: 50px;
+}
