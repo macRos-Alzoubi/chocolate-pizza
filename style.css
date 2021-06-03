@@ -167,7 +167,7 @@ main{
     float: left;
     position: absolute;
     left: 0;
-    bottom: 35px;
+    bottom: 62px;
 }
 
 .checkbox-text{
@@ -175,6 +175,10 @@ main{
     font-size: 150%;
     color: #4e4e4e;
     margin-left: 20px;
+}
+
+.checkbox-text--line-break{
+    line-height: 1.8;
 }
 
 .checkbox-text--crossed{
