@@ -8,15 +8,9 @@
 
 .logo-container{
     float: left;
+    overflow: auto;
 }
 
-.logo-container::after{
-    content: "";
-    display: block;
-    width: 100%;
-    height: 0;
-    clear: both;
-}
 
 .logo__img{
     float: left;
@@ -61,18 +55,6 @@ header{
     overflow: auto;
     width: 100%;
 }
-
-/* header::after{
-    content: "";
-    display: block;
-    width: 100%;
-    height: 25px;
-    position: absolute;
-    left: 0;
-    bottom: -25px;
-    background-image: url('img/hr-img.png');
-    background-repeat: repeat;
-} */
 
 .hr{
     background-image: url('img/hr-img.png');
@@ -230,6 +212,7 @@ main{
 .testimonial-text{
     color: #4e4e4e;
     line-height: 1.4;
+    font-size: 120%;
 }
 
 .btn-container{
@@ -243,9 +226,9 @@ main{
     margin-left: auto;
     float: right;
     color: #d8d8d8;
-    width: 200px;
-    height: auto;
-    padding: 15px 25px;
+    width: 220px;
+    height: 70px;
+    padding: 25px 0;
     background-color: #945335;
     text-align: center;
     text-decoration: none;
@@ -271,4 +254,6 @@ footer img{
 
 .copy-right{
     margin-top: 50px;
+    font-size: 120%;
+    color: #979797;
 }
