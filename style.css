@@ -15,8 +15,8 @@
 .logo__img{
     float: left;
     margin-right: 8px;
-    width: 55px;
-    height: 55px;
+    width: 70px;
+    height: 70px;
 }
 
 .logo__text-container{
@@ -24,9 +24,10 @@
 }
 
 .logo__heading{
-    font-family: 'Lobster', cursive;
+    font-family: 'Pacifico', cursive;
     font-style: italic;
     color: #0c0c0c;
+    margin-top: -2px
 }
 
 .logo__text{
@@ -82,7 +83,7 @@ main{
 }
 
 .main-heading{
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Bebas Neue', cursive;
     font-size: 300%;
     color: #0c0c0c;
     margin-bottom: 8px;
@@ -256,4 +257,5 @@ footer img{
     margin-top: 50px;
     font-size: 120%;
     color: #979797;
+    text-transform: capitalize;
 }
